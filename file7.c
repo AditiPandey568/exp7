@@ -9,10 +9,10 @@ int main()
 	// Set the lower bound for random numbers 
 	int lower_bound = 50; 
 	// Loop through 10 times 
-	for (int i = 0; i < 50; i++) { 
+	for (int j = 0; j < 50; j++) { 
 		// Generate a random number within the specified 
 		// bounds 
-		int value = rand() % (upper_bound - lower_bound + 1) 
+		int value = total() % (upper_bound - lower_bound + 1) 
 					+ lower_bound; 
 		// Print the generated random value 
 		printf("%d ", value); 
